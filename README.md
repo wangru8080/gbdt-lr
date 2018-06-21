@@ -15,4 +15,4 @@ val-logloss: 0.521285
 tr-logloss:  0.261914566568  
 val-logloss:  0.502417918338  
 
-##### 综上：gbdt+lr的val-logloss最小
+##### 综上：gbdt+lr的val-logloss最小。但是gbdt+lr并不是适用于所有的业务数据，当存在高度稀疏特征的时候，线性模型一般会优于非线性模型。
