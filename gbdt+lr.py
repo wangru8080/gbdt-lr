@@ -138,7 +138,7 @@ def gbdt_lr_predict(data, bin_feats, cat_feats, con_feats):
                             num_leaves=100,
                             max_depth = 12,
                             learning_rate=0.01,
-                            n_estimators=30,
+                            n_estimators=30, # 10-30
                             )
 
     gbm.fit(x_train, y_train,
