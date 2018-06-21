@@ -215,9 +215,6 @@ def gbdt_lr_predict(data, bin_feats, cat_feats, con_feats):
     submission.to_csv('submission/submission_gbdt+Lr_auc_%s.csv' % val_auc, index = False)
     print('结束')
 
-def gbdt_ffm_predict(data, bin_feats, cat_feats, con_feats):
-    pass
-
 if __name__ == '__main__':
     data = preProcess()
     bin_feats = ['ps_ind_06_bin', 'ps_ind_07_bin', 'ps_ind_08_bin', 'ps_ind_09_bin', 'ps_ind_10_bin', 'ps_ind_11_bin', 'ps_ind_12_bin', 'ps_ind_13_bin', 'ps_ind_16_bin', 'ps_ind_17_bin', 'ps_ind_18_bin', 'ps_calc_15_bin', 'ps_calc_16_bin', 'ps_calc_17_bin', 'ps_calc_18_bin', 'ps_calc_19_bin', 'ps_calc_20_bin']
