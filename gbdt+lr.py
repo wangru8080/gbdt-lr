@@ -73,10 +73,6 @@ def gbdt_predict(data, bin_feats, cat_feats, con_feats):
     target = train.pop('target')
     test = data[data['target'] == -1]
     test.drop(['target'], axis = 1, inplace = True)
-    train = data[data['target'] != -1]
-    target = train.pop('target')
-    test = data[data['target'] == -1]
-    test.drop(['target'], axis = 1, inplace = True)
 
     # 划分数据集
     print('划分数据集...')
@@ -121,11 +117,7 @@ def gbdt_lr_predict(data, bin_feats, cat_feats, con_feats):
     target = train.pop('target')
     test = data[data['target'] == -1]
     test.drop(['target'], axis = 1, inplace = True)
-    train = data[data['target'] != -1]
-    target = train.pop('target')
-    test = data[data['target'] == -1]
-    test.drop(['target'], axis = 1, inplace = True)
-
+   
     # 划分数据集
     print('划分数据集...')
     x_train, x_val, y_train, y_val = train_test_split(train, target, test_size = 0.3, random_state = 2018)
