@@ -26,4 +26,6 @@ val-logloss:  0.502417918338
 ### gbdt+FFM：
 ![](https://note.youdao.com/yws/api/personal/file/7BC3F5E9E84C48CEA0F9D8E731728B7E?method=download&shareKey=30492d70d1e4ebe84276984ea832a262) 
 
-#### gbdt+FFM的效果要优于FFM
+#### gbdt+FFM的效果要优于FFM  
+
+为了快速验证实验，实验中所使用的数据集非常小，所以gbdt+FFM的效果在这个数据集下未必会好于gbdt+lr，至于gbdt+FFM与gbdt+lr的效果哪个更好，在以后的学习的过程中还需要进行多次试验
