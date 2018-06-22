@@ -23,7 +23,7 @@ val-logloss:  0.502417918338
 ### FFM：
 ![](https://note.youdao.com/yws/api/personal/file/156F8B3B13E042909520348E80D105E0?method=download&shareKey=bb75dc742741374a2adb14fd83cd0164)   
 
-### gbdt+FFM
+### gbdt+FFM：
 ![](https://note.youdao.com/yws/api/personal/file/7BC3F5E9E84C48CEA0F9D8E731728B7E?method=download&shareKey=30492d70d1e4ebe84276984ea832a262) 
 
 #### gbdt+FFM的效果要优于FFM
