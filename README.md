@@ -21,10 +21,10 @@ val-logloss:  0.502417918338
 ##### 综上：gbdt+lr的val-logloss最小。但是gbdt+lr并不是适用于所有的业务数据，当存在高度稀疏特征的时候，线性模型一般会优于非线性模型。  
 
 ### FFM：
-![](https://note.youdao.com/yws/api/personal/file/156F8B3B13E042909520348E80D105E0?method=download&shareKey=bb75dc742741374a2adb14fd83cd0164)   
+![](https://github.com/wangru8080/gbdt-lr/blob/master/ffm.png)   
 
 ### gbdt+FFM：
-![](https://note.youdao.com/yws/api/personal/file/7BC3F5E9E84C48CEA0F9D8E731728B7E?method=download&shareKey=30492d70d1e4ebe84276984ea832a262) 
+![](https://github.com/wangru8080/gbdt-lr/blob/master/ffm.png) 
 
 
 #### gbdt+FFM的效果要优于FFM  
