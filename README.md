@@ -24,7 +24,7 @@ val-logloss:  0.502417918338
 ![](https://github.com/wangru8080/gbdt-lr/blob/master/ffm.png)   
 
 ### gbdt+FFM：
-![](https://github.com/wangru8080/gbdt-lr/blob/master/ffm.png) 
+![](https://github.com/wangru8080/gbdt-lr/blob/master/gbdt%2Bffm.png) 
 
 
 #### gbdt+FFM的效果要优于FFM  
