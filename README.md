@@ -27,9 +27,9 @@ val-logloss:  0.502417918338
 ### gbdt+FFM：
 ![](https://github.com/wangru8080/gbdt-lr/blob/master/gbdt%2Bffm.png) 
 
+#### gbdt+FFM的效果要优于FFM  
+
 FFM见https://github.com/wangru8080/FFMFormat  
 其中FFM使用的是libffm库来训练，代码仅给出了构造数据输入的方法（FFMFormat），构造好输入格式后，直接使用libFFM训练即可
-
-#### gbdt+FFM的效果要优于FFM  
 
 为了快速验证实验，实验中所使用的数据集非常小，所以gbdt+FFM的效果在这个数据集下未必会好于gbdt+lr，至于gbdt+FFM与gbdt+lr的效果哪个更好，在以后的学习过程中还需要进行多次试验
